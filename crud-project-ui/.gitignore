@@ -18,6 +18,8 @@ coverage
 /cypress/screenshots/
 
 # Editor directories and files
+.vscode/*
+!.vscode/extensions.json
 .idea
 *.suo
 *.ntvs*
@@ -26,9 +28,3 @@ coverage
 *.sw?
 
 *.tsbuildinfo
-
-node_modules
-branch_structure.json
-temp_auto_push.bat
-temp_interactive_push.bat
-.gitignore
